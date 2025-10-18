@@ -12,10 +12,8 @@ export default function CartPage() {
   const handleOrder = () => {
     const msg = `🛒 *Shalawambe Order:*\n${cart
       .map((i) => `• ${i.quantity} × ${i.name} ($${i.price.toFixed(2)})`)
-      .join('\n')}\n\n*Total:* $${total.toFixed(2)}\n\nPowered by Monecuer Inc.`;
-    const url = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(
-      msg
-    )}`;
+      .join('\n')}\n\n*Total:* $${total.toFixed(2)}\n\n© Shalawambe`;
+    const url = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(msg)}`;
     window.open(url, '_blank');
   };
 
@@ -63,6 +61,7 @@ export default function CartPage() {
                   <button
                     onClick={() => updateQuantity(item.name, item.quantity - 1)}
                     className="p-1 hover:bg-gray-200 rounded-l-md"
+                    aria-label="Decrease quantity"
                   >
                     <Minus className="w-4 h-4" />
                   </button>
@@ -70,6 +69,7 @@ export default function CartPage() {
                   <button
                     onClick={() => updateQuantity(item.name, item.quantity + 1)}
                     className="p-1 hover:bg-gray-200 rounded-r-md"
+                    aria-label="Increase quantity"
                   >
                     <Plus className="w-4 h-4" />
                   </button>
@@ -82,6 +82,7 @@ export default function CartPage() {
                 <Trash2
                   className="w-5 h-5 text-red-500 hover:text-red-700 cursor-pointer"
                   onClick={() => removeFromCart(item.name)}
+                  aria-label="Remove item"
                 />
               </div>
             </div>
