@@ -1,0 +1,2055 @@
+
+  [
+    {
+      "name": "006",
+      "price": 0.1
+    },
+    {
+      "name": "7up 750ml",
+      "price": 0.5
+    },
+    {
+      "name": "Active chocolate",
+      "price": 1.5
+    },
+    {
+      "name": "Active nutri peanut butter 1kg",
+      "price": 1.5
+    },
+    {
+      "name": "Active nutri strawberry",
+      "price": 1.5
+    },
+    {
+      "name": "Airtime buddie",
+      "price": 1.0
+    },
+    {
+      "name": "All bran flakes",
+      "price": 4.0
+    },
+    {
+      "name": "All Gold Ketchup",
+      "price": 2.5
+    },
+    {
+      "name": "Aloevera 100ml",
+      "price": 1.0
+    },
+    {
+      "name": "Aloha Savanna Rain 1kgs",
+      "price": 2.0
+    },
+    {
+      "name": "Aloha Savanna Rain 2kg",
+      "price": 3.8
+    },
+    {
+      "name": "Aloha Savanna Rain 500g",
+      "price": 1.0
+    },
+    {
+      "name": "Always Night XL",
+      "price": 3.0
+    },
+    {
+      "name": "Ama sipsip strawberry 500ml",
+      "price": 0.5
+    },
+    {
+      "name": "Amaara basmati 5kgs",
+      "price": 11.0
+    },
+    {
+      "name": "Amaryllis Flower body mist",
+      "price": 4.0
+    },
+    {
+      "name": "Amasipsip 250ml",
+      "price": 0.35
+    },
+    {
+      "name": "Amasipsip 500ml",
+      "price": 0.5
+    },
+    {
+      "name": "Amasipsip big buttermilk 500ml",
+      "price": 0.5
+    },
+    {
+      "name": "Anchor Yeast",
+      "price": 1.0
+    },
+    {
+      "name": "Appletiser 330mls",
+      "price": 1.0
+    },
+    {
+      "name": "Aqua clear 24 Pack",
+      "price": 4.0
+    },
+    {
+      "name": "Aqua clear 500ml",
+      "price": 0.25
+    },
+    {
+      "name": "Aqua Nature 2ltrs",
+      "price": 0.5
+    },
+    {
+      "name": "Aqua nature 5l water",
+      "price": 1.0
+    },
+    {
+      "name": "AquaFresh Minty 100ml",
+      "price": 1.0
+    },
+    {
+      "name": "AquaNature 500ml",
+      "price": 0.25
+    },
+    {
+      "name": "Aquelle Sparkling Water",
+      "price": 0.5
+    },
+    {
+      "name": "Aromat",
+      "price": 1.0
+    },
+    {
+      "name": "Assorted cups $0.5",
+      "price": 0.5
+    },
+    {
+      "name": "Assorted cups $1.00",
+      "price": 1.0
+    },
+    {
+      "name": "Assorted cups $1.50",
+      "price": 1.5
+    },
+    {
+      "name": "Assorted Cups $2",
+      "price": 2.0
+    },
+    {
+      "name": "Astros candy",
+      "price": 1.0
+    },
+    {
+      "name": "Baby Crez 500ml",
+      "price": 2.0
+    },
+    {
+      "name": "Baby Panda",
+      "price": 1.5
+    },
+    {
+      "name": "Baby Soft",
+      "price": 8.5
+    },
+    {
+      "name": "Baker's burger roll",
+      "price": 1.0
+    },
+    {
+      "name": "Baker's hot dog",
+      "price": 1.0
+    },
+    {
+      "name": "Bakers inn sugar bun",
+      "price": 0.5
+    },
+    {
+      "name": "Bakers inn White",
+      "price": 1.0
+    },
+    {
+      "name": "Baking powder robertsons",
+      "price": 1.0
+    },
+    {
+      "name": "Balley House Mango",
+      "price": 2.8
+    },
+    {
+      "name": "Balley House Orange crush",
+      "price": 2.8
+    },
+    {
+      "name": "Balley House Orange Juice",
+      "price": 2.6
+    },
+    {
+      "name": "Balley Passion Crush",
+      "price": 2.6
+    },
+    {
+      "name": "Ballyhouse Lemon lime",
+      "price": 2.6
+    },
+    {
+      "name": "Bar One",
+      "price": 0.5
+    },
+    {
+      "name": "Baygon 300ml",
+      "price": 2.0
+    },
+    {
+      "name": "Bela Macaroni 3kgs",
+      "price": 4.4
+    },
+    {
+      "name": "Bella Spaghetti",
+      "price": 0.5
+    },
+    {
+      "name": "Better Buy Macaroni 400g",
+      "price": 0.5
+    },
+    {
+      "name": "Big Ben bar soap",
+      "price": 1.5
+    },
+    {
+      "name": "Bigfive matches carton",
+      "price": 0.5
+    },
+    {
+      "name": "Bigfive matches single",
+      "price": 0.1
+    },
+    {
+      "name": "Bigga bear",
+      "price": 0.5
+    },
+    {
+      "name": "Binto beef singles",
+      "price": 0.35
+    },
+    {
+      "name": "Binto chicken pack",
+      "price": 1.5
+    },
+    {
+      "name": "Binto chicken single",
+      "price": 0.35
+    },
+    {
+      "name": "Binto noodles beef pack",
+      "price": 1.5
+    },
+    {
+      "name": "Bisto Brown 250g",
+      "price": 1.5
+    },
+    {
+      "name": "Bisto browns & thickens 125g",
+      "price": 1.0
+    },
+    {
+      "name": "Blue Band 250g",
+      "price": 1.0
+    },
+    {
+      "name": "Blue Ribbon Self Raising 2kgs",
+      "price": 2.0
+    },
+    {
+      "name": "Body Luxe 50ml",
+      "price": 0.5
+    },
+    {
+      "name": "Body mist lovely Spell Golden",
+      "price": 4.0
+    },
+    {
+      "name": "Body mist robot",
+      "price": 4.0
+    },
+    {
+      "name": "Bokomo 1kg",
+      "price": 5.0
+    },
+    {
+      "name": "Bokomo 750g",
+      "price": 4.0
+    },
+    {
+      "name": "Bombshell",
+      "price": 4.0
+    },
+    {
+      "name": "Bonaqua water 500ml",
+      "price": 0.3
+    },
+    {
+      "name": "Bonny Candy",
+      "price": 0.25
+    },
+    {
+      "name": "Boom 1kg",
+      "price": 2.0
+    },
+    {
+      "name": "Boom 2kgs",
+      "price": 3.8
+    },
+    {
+      "name": "Boom Floral 1kg",
+      "price": 2.0
+    },
+    {
+      "name": "Boom force scouring cleanser",
+      "price": 0.5
+    },
+    {
+      "name": "Boom liquid sparkle orange",
+      "price": 1.8
+    },
+    {
+      "name": "Boom liquid green",
+      "price": 1.8
+    },
+    {
+      "name": "Boom Morning Fresh 500g",
+      "price": 1.0
+    },
+    {
+      "name": "Boom Paste",
+      "price": 0.5
+    },
+    {
+      "name": "Boos body mist",
+      "price": 4.0
+    },
+    {
+      "name": "Breakfast 100g",
+      "price": 2.0
+    },
+    {
+      "name": "Breakfast ground coffee 50g",
+      "price": 1.0
+    },
+    {
+      "name": "Brite lite candles pack",
+      "price": 1.5
+    },
+    {
+      "name": "Brothers Apple",
+      "price": 0.5
+    },
+    {
+      "name": "Bubbly milk chocolate 150g",
+      "price": 2.5
+    },
+    {
+      "name": "Bubbly mint",
+      "price": 2.0
+    },
+    {
+      "name": "Bubbly top deck",
+      "price": 2.0
+    },
+    {
+      "name": "Bubbly top deck 150g",
+      "price": 2.5
+    },
+    {
+      "name": "Bull Brand",
+      "price": 2.0
+    },
+    {
+      "name": "Buttercup 1kg",
+      "price": 3.3
+    },
+    {
+      "name": "Buttercup 250g",
+      "price": 1.0
+    },
+    {
+      "name": "Buttercup 500g",
+      "price": 1.7
+    },
+    {
+      "name": "Butterflies tissue",
+      "price": 1.0
+    },
+    {
+      "name": "Bye bye Stress lotion 1l",
+      "price": 5.0
+    },
+    {
+      "name": "Cadbury astros",
+      "price": 1.0
+    },
+    {
+      "name": "Cadbury Bubble Milk",
+      "price": 2.0
+    },
+    {
+      "name": "Cadbury Bubbly Oreo",
+      "price": 2.0
+    },
+    {
+      "name": "Cadbury Dairy Fruit Nut",
+      "price": 1.0
+    },
+    {
+      "name": "Cadbury milk chocolate",
+      "price": 1.0
+    },
+    {
+      "name": "Cadbury milk chocolate 150g",
+      "price": 2.5
+    },
+    {
+      "name": "Cadbury Mint",
+      "price": 1.0
+    },
+    {
+      "name": "Cadbury Ram and Raisin",
+      "price": 1.0
+    },
+    {
+      "name": "Cadbury top deck 150g",
+      "price": 2.5
+    },
+    {
+      "name": "Cadbury top deck 80g",
+      "price": 1.0
+    },
+    {
+      "name": "Cadbury wholenut 80g",
+      "price": 1.0
+    },
+    {
+      "name": "Candles single",
+      "price": 0.3
+    },
+    {
+      "name": "Cappy delight mango 1l",
+      "price": 2.0
+    },
+    {
+      "name": "Capri Spaghetti",
+      "price": 0.5
+    },
+    {
+      "name": "Captain Ginger Wise",
+      "price": 0.5
+    },
+    {
+      "name": "Cartwrights beef flavour",
+      "price": 0.5
+    },
+    {
+      "name": "Casamia choc chip cookies",
+      "price": 1.5
+    },
+    {
+      "name": "Casamia Lemon Creams",
+      "price": 1.0
+    },
+    {
+      "name": "Casamia Time",
+      "price": 0.5
+    },
+    {
+      "name": "Cascade 400mls",
+      "price": 0.5
+    },
+    {
+      "name": "Cascade Baobab 400ml",
+      "price": 0.5
+    },
+    {
+      "name": "Cascade baobab Ltr",
+      "price": 1.0
+    },
+    {
+      "name": "Cascade orange",
+      "price": 1.0
+    },
+    {
+      "name": "Cascade Tropical punch 1l",
+      "price": 1.0
+    },
+    {
+      "name": "Cashel Valley",
+      "price": 1.0
+    },
+    {
+      "name": "Cerelac 200g",
+      "price": 2.5
+    },
+    {
+      "name": "Cerelac 500g",
+      "price": 4.5
+    },
+    {
+      "name": "Ceres Apple",
+      "price": 2.5
+    },
+    {
+      "name": "Ceres apple 200ml",
+      "price": 0.5
+    },
+    {
+      "name": "Ceres Full moon",
+      "price": 2.5
+    },
+    {
+      "name": "Ceres litchi 100% juicy",
+      "price": 2.5
+    },
+    {
+      "name": "Ceres passion fruit 1L",
+      "price": 2.5
+    },
+    {
+      "name": "Ceres Red Grape",
+      "price": 2.5
+    },
+    {
+      "name": "Ceres Secrets",
+      "price": 2.5
+    },
+    {
+      "name": "Ceres whispers of summer",
+      "price": 2.5
+    },
+    {
+      "name": "Cerevita choco malt",
+      "price": 3.0
+    },
+    {
+      "name": "Cerevita corn & banana",
+      "price": 3.0
+    },
+    {
+      "name": "Cerevita corn and wheat",
+      "price": 3.0
+    },
+    {
+      "name": "Charhons 1kg",
+      "price": 3.5
+    },
+    {
+      "name": "Charhons 200g",
+      "price": 0.5
+    },
+    {
+      "name": "Charhons 2kgs",
+      "price": 5.0
+    },
+    {
+      "name": "Charhons 500g",
+      "price": 1.5
+    },
+    {
+      "name": "Charhons crunchie cookies 500g",
+      "price": 1.5
+    },
+    {
+      "name": "Cheeky chilli 100ml",
+      "price": 0.5
+    },
+    {
+      "name": "Cherry 2 ltrs",
+      "price": 2.0
+    },
+    {
+      "name": "Cherry Ripple 5ltrs",
+      "price": 8.5
+    },
+    {
+      "name": "Chicken Polony garfankels",
+      "price": 1.0
+    },
+    {
+      "name": "Chilli 200ml",
+      "price": 1.0
+    },
+    {
+      "name": "Chimombe 1ltr",
+      "price": 1.5
+    },
+    {
+      "name": "Chompkins cheese and onion",
+      "price": 1.5
+    },
+    {
+      "name": "Chompkins tomato sauce",
+      "price": 1.5
+    },
+    {
+      "name": "Chunky Choc cookies",
+      "price": 1.5
+    },
+    {
+      "name": "Cinamon cookies",
+      "price": 1.5
+    },
+    {
+      "name": "Citro 100mls",
+      "price": 0.25
+    },
+    {
+      "name": "Citro mango 1L",
+      "price": 1.0
+    },
+    {
+      "name": "Citro orange 1L",
+      "price": 1.0
+    },
+    {
+      "name": "Citro pineapple 500ml",
+      "price": 0.5
+    },
+    {
+      "name": "Citro tropical 1L",
+      "price": 1.0
+    },
+    {
+      "name": "Classico salt",
+      "price": 0.25
+    },
+    {
+      "name": "Clere Marula Oil",
+      "price": 1.5
+    },
+    {
+      "name": "Clere Pure Glycerine",
+      "price": 1.0
+    },
+    {
+      "name": "Close Up Menthol Fresh",
+      "price": 1.0
+    },
+    {
+      "name": "Close Up Red Hot",
+      "price": 1.0
+    },
+    {
+      "name": "Clover Krush",
+      "price": 1.0
+    },
+    {
+      "name": "Coarse salt 1kg",
+      "price": 0.5
+    },
+    {
+      "name": "Coated biscuits",
+      "price": 1.5
+    },
+    {
+      "name": "Cobra wax polish lavender",
+      "price": 2.0
+    },
+    {
+      "name": "Cobra wax polish white",
+      "price": 2.0
+    },
+    {
+      "name": "Coca Cola 1ltr",
+      "price": 1.0
+    },
+    {
+      "name": "Coca-Cola 2ltr",
+      "price": 2.0
+    },
+    {
+      "name": "Cocoa 125g",
+      "price": 3.5
+    },
+    {
+      "name": "Cocoa 62.5g",
+      "price": 2.0
+    },
+    {
+      "name": "Coconut Lime Scrub",
+      "price": 5.0
+    },
+    {
+      "name": "Coke Pet 440ml",
+      "price": 0.5
+    },
+    {
+      "name": "Coke Zero 440ml",
+      "price": 0.5
+    },
+    {
+      "name": "Colcom Pork Pie",
+      "price": 0.5
+    },
+    {
+      "name": "Colgate 100ml",
+      "price": 1.0
+    },
+    {
+      "name": "Colgate Charcoal",
+      "price": 2.5
+    },
+    {
+      "name": "Colgate Triple Action",
+      "price": 1.0
+    },
+    {
+      "name": "Comfort Elegance",
+      "price": 3.0
+    },
+    {
+      "name": "Comfort Pure",
+      "price": 3.0
+    },
+    {
+      "name": "Comfort Uplifting",
+      "price": 3.0
+    },
+    {
+      "name": "Cook More 2kgs",
+      "price": 2.4
+    },
+    {
+      "name": "Cool Joy Strawberry",
+      "price": 0.5
+    },
+    {
+      "name": "Coolsplash Orange 5L",
+      "price": 4.0
+    },
+    {
+      "name": "Coolsplash Cream Soda",
+      "price": 4.0
+    },
+    {
+      "name": "Coolsplash Raspberry",
+      "price": 4.0
+    },
+    {
+      "name": "Coolspush Blackberry 5L",
+      "price": 4.0
+    },
+    {
+      "name": "Cortina After Eight 5L",
+      "price": 8.5
+    },
+    {
+      "name": "Cortina Cherry Ripple 2L",
+      "price": 4.5
+    },
+    {
+      "name": "Cortina Cherry Ripple 300ml",
+      "price": 1.0
+    },
+    {
+      "name": "Cortina Chocolate 2L",
+      "price": 4.5
+    },
+    {
+      "name": "Cortina Chocolate 300ml",
+      "price": 1.25
+    },
+    {
+      "name": "Cortina Chocolate 5L",
+      "price": 8.5
+    },
+    {
+      "name": "Cortina Cone Ice Cream",
+      "price": 0.5
+    },
+    {
+      "name": "Cortina Dairy Snack Banana 100g",
+      "price": 0.25
+    },
+    {
+      "name": "Cortina Dairy Snack Strawberry 100g",
+      "price": 0.25
+    },
+    {
+      "name": "Cortina Dairy Snack Vanilla 100g",
+      "price": 0.25
+    },
+    {
+      "name": "Cortina Shamiso 300ml",
+      "price": 1.0
+    },
+    {
+      "name": "Cortina Strawberry 2L",
+      "price": 4.5
+    },
+    {
+      "name": "Cortina Strawberry 300ml",
+      "price": 1.0
+    },
+    {
+      "name": "Cortina Vanilla 300ml",
+      "price": 1.0
+    },
+    {
+      "name": "Cortina Vanilla 5L",
+      "price": 8.0
+    },
+    {
+      "name": "Cosmo Silk Aloe Vera",
+      "price": 0.5
+    },
+    {
+      "name": "Cosmo Silk Lemon",
+      "price": 0.5
+    },
+    {
+      "name": "Cotton Buds",
+      "price": 0.5
+    },
+    {
+      "name": "Cotton Wool 50g",
+      "price": 1.0
+    },
+    {
+      "name": "Cotton Wool Big",
+      "price": 5.0
+    },
+    {
+      "name": "Cough Drops",
+      "price": 0.5
+    },
+    {
+      "name": "Cream Doughnuts",
+      "price": 0.25
+    },
+    {
+      "name": "Cream Soda 440ml",
+      "price": 0.5
+    },
+    {
+      "name": "Creamy Wakakora",
+      "price": 0.5
+    },
+    {
+      "name": "Cremora Satchet",
+      "price": 1.7
+    },
+    {
+      "name": "Crinkles Fruit Chutney Small",
+      "price": 0.5
+    },
+    {
+      "name": "Crosse and Blackwell",
+      "price": 2.5
+    },
+    {
+      "name": "Crystal Brown Sugar 2kg",
+      "price": 2.5
+    },
+    {
+      "name": "Crystal Sweets Pack",
+      "price": 3.5
+    },
+    {
+      "name": "Custard Lobels Creams",
+      "price": 0.5
+    },
+    {
+      "name": "D Lite 375ml",
+      "price": 1.0
+    },
+    {
+      "name": "Dairibord Lacto 1L",
+      "price": 1.5
+    },
+    {
+      "name": "Dairibord Lacto 500ml",
+      "price": 0.7
+    },
+    {
+      "name": "Dairy Banana",
+      "price": 0.5
+    },
+    {
+      "name": "Dairy Berry Harvest",
+      "price": 0.5
+    },
+    {
+      "name": "Dairy Burst Tropical 1L",
+      "price": 1.0
+    },
+    {
+      "name": "Dairy Fruit Cocktail",
+      "price": 0.5
+    },
+    {
+      "name": "Dairy Gold Full Cream",
+      "price": 0.5
+    },
+    {
+      "name": "Dairy Orange",
+      "price": 0.5
+    },
+    {
+      "name": "Dairy Snack Banana 250ml",
+      "price": 0.5
+    },
+    {
+      "name": "Dairy Snack Forest Berry 200g",
+      "price": 0.5
+    },
+    {
+      "name": "Dairy Snack Forest Berry 250ml",
+      "price": 0.5
+    },
+    {
+      "name": "Dairy Snack Scoop Banana 150g",
+      "price": 0.5
+    },
+    {
+      "name": "Dairy Snack Scoop Strawberry 150g",
+      "price": 0.5
+    },
+    {
+      "name": "Dairy Snack Strawberry",
+      "price": 0.5
+    },
+    {
+      "name": "Dairy Snack Vanilla 250ml",
+      "price": 0.5
+    },
+    {
+      "name": "Dairy Snack Vanilla Scoop 150g",
+      "price": 0.5
+    },
+    {
+      "name": "Dairy Vanilla",
+      "price": 0.5
+    },
+    {
+      "name": "Dairibord Udiwo 500ml",
+      "price": 0.5
+    },
+    {
+      "name": "Dandy Mint Chewing Gum",
+      "price": 0.25
+    },
+    {
+      "name": "Dark and Lovely Regular",
+      "price": 5.25
+    },
+    {
+      "name": "Dark and Lovely Beginnings",
+      "price": 5.25
+    },
+    {
+      "name": "Dawn Active",
+      "price": 2.0
+    },
+    {
+      "name": "Dawn Firming Body 400ml",
+      "price": 2.0
+    },
+    {
+      "name": "Dawn Lanolin Milk",
+      "price": 2.0
+    },
+    {
+      "name": "Dawn Refresh 400ml",
+      "price": 2.0
+    },
+    {
+      "name": "Dax Freeze 100g",
+      "price": 1.5
+    },
+    {
+      "name": "Dendairy 1L",
+      "price": 1.5
+    },
+    {
+      "name": "Dendairy Chocolate Milk 250ml",
+      "price": 0.5
+    },
+    {
+      "name": "Dendairy Maaz 500ml",
+      "price": 0.7
+    },
+    {
+      "name": "Dendairy Milk 250ml",
+      "price": 0.5
+    },
+    {
+      "name": "Dettol 125ml",
+      "price": 3.0
+    },
+    {
+      "name": "Dettol 50ml",
+      "price": 1.0
+    },
+    {
+      "name": "Dettol Active",
+      "price": 1.0
+    },
+    {
+      "name": "Dettol Cool",
+      "price": 1.0
+    },
+    {
+      "name": "Dettol Eventone",
+      "price": 1.0
+    },
+    {
+      "name": "Dettol Fresh",
+      "price": 1.0
+    },
+    {
+      "name": "Dettol Original",
+      "price": 1.0
+    },
+    {
+      "name": "Dettol Sensitive",
+      "price": 1.0
+    },
+    {
+      "name": "Dettol Skin Care",
+      "price": 1.0
+    },
+    {
+      "name": "Dettol Skin Detox",
+      "price": 1.0
+    },
+    {
+      "name": "Domestos Extended Power Blue",
+      "price": 1.9
+    },
+    {
+      "name": "Domestos Purple",
+      "price": 2.0
+    },
+    {
+      "name": "Domestos Summer Fresh",
+      "price": 2.0
+    },
+    {
+      "name": "Domestos Yellow Lemon",
+      "price": 2.0
+    },
+    {
+      "name": "Doom Odourless",
+      "price": 2.0
+    },
+    {
+      "name": "Doritos Barbeque 145g",
+      "price": 2.0
+    },
+    {
+      "name": "Doritos Cheese 30g",
+      "price": 0.5
+    },
+    {
+      "name": "Doritos Supreme Cheese 145g",
+      "price": 2.0
+    },
+    {
+      "name": "Doritos Sweet 30g",
+      "price": 0.5
+    },
+    {
+      "name": "Doritos Sweet Chilli 145g",
+      "price": 2.0
+    },
+    {
+      "name": "Double Cream Plain Yoghurt",
+      "price": 5.0
+    },
+    {
+      "name": "Double Cream Plain Yogurt 500g",
+      "price": 3.5
+    },
+    {
+      "name": "Dr Chingwa",
+      "price": 1.0
+    },
+    {
+      "name": "Dragon 500ml",
+      "price": 1.0
+    },
+    {
+      "name": "Durban Curry Noodles 70g",
+      "price": 0.35
+    },
+    {
+      "name": "Durban Curry Noodles Pack",
+      "price": 1.5
+    },
+    {
+      "name": "Easy Waves Gel and Spray",
+      "price": 2.0
+    },
+    {
+      "name": "Eat One Now",
+      "price": 1.0
+    },
+    {
+      "name": "Eggs",
+      "price": 0.15
+    },
+    {
+      "name": "Eggs Cret",
+      "price": 4.5
+    },
+    {
+      "name": "Ekono Spaghetti",
+      "price": 0.5
+    },
+    {
+      "name": "Ellis Brown",
+      "price": 3.4
+    },
+    {
+      "name": "Ellis Brown 375g",
+      "price": 1.7
+    },
+    {
+      "name": "Energy Dovi",
+      "price": 1.0
+    },
+    {
+      "name": "Energy Dovi 1L",
+      "price": 3.5
+    },
+    {
+      "name": "Eno",
+      "price": 0.5
+    },
+    {
+      "name": "Epimax Baby Cream",
+      "price": 5.0
+    },
+    {
+      "name": "Epimax Original Cream",
+      "price": 5.5
+    },
+    {
+      "name": "Ever Gold 2kgs",
+      "price": 2.0
+    },
+    {
+      "name": "Everyday 400g",
+      "price": 3.5
+    },
+    {
+      "name": "Extended Moisture",
+      "price": 5.6
+    },
+    {
+      "name": "Fanta Grape 2L",
+      "price": 2.0
+    },
+    {
+      "name": "Fanta Grape 400ml",
+      "price": 0.5
+    },
+    {
+      "name": "Fanta Orange 2L",
+      "price": 2.0
+    },
+    {
+      "name": "Fanta Pet 440ml",
+      "price": 0.5
+    },
+    {
+      "name": "Fanta RGB 300ml",
+      "price": 0.25
+    },
+    {
+      "name": "Farai Pads Pink",
+      "price": 1.0
+    },
+    {
+      "name": "Farari",
+      "price": 4.0
+    },
+    {
+      "name": "Fattis and Monis",
+      "price": 2.0
+    },
+    {
+      "name": "Ferrero Rocher",
+      "price": 10.0
+    },
+    {
+      "name": "Five Roses Tea",
+      "price": 1.5
+    },
+    {
+      "name": "Flu Gripp",
+      "price": 0.5
+    },
+    {
+      "name": "For Flue",
+      "price": 0.5
+    },
+    {
+      "name": "Freddo",
+      "price": 0.25
+    },
+    {
+      "name": "Freegells Extra",
+      "price": 0.5
+    },
+    {
+      "name": "Freegells Nectar",
+      "price": 0.5
+    },
+    {
+      "name": "Freegells V.I.T.C",
+      "price": 0.5
+    },
+    {
+      "name": "Freshpak 20s",
+      "price": 1.5
+    },
+    {
+      "name": "Freshpak 40s",
+      "price": 2.0
+    },
+    {
+      "name": "Freshpak 80s",
+      "price": 3.0
+    },
+    {
+      "name": "Frimax Fruit Chutney",
+      "price": 1.4
+    },
+    {
+      "name": "Frimax Salt & Vinegar",
+      "price": 1.5
+    },
+    {
+      "name": "Frimax Smoked Beef",
+      "price": 1.4
+    },
+    {
+      "name": "Frittos Barbeque",
+      "price": 0.25
+    },
+    {
+      "name": "Frittos Sweet Chilli",
+      "price": 0.25
+    },
+    {
+      "name": "Fruitesca",
+      "price": 1.0
+    },
+    {
+      "name": "Fruitree Mediterranean",
+      "price": 2.0
+    },
+    {
+      "name": "Fun Fresh Orange Mango",
+      "price": 1.5
+    },
+    {
+      "name": "Fun\u2019n Fresh Mixed Fruit",
+      "price": 1.5
+    },
+    {
+      "name": "FunFresh Peach",
+      "price": 1.5
+    },
+    {
+      "name": "Gango Big",
+      "price": 0.25
+    },
+    {
+      "name": "Gango Small",
+      "price": 0.0
+    },
+    {
+      "name": "Garfankels Big Bite",
+      "price": 0.5
+    },
+    {
+      "name": "Geisha Aloe Vera",
+      "price": 0.8
+    },
+    {
+      "name": "Geisha Coconut Milk & Honey",
+      "price": 1.0
+    },
+    {
+      "name": "Gentle Magic Cream",
+      "price": 1.0
+    },
+    {
+      "name": "Gentle Magic Lotion",
+      "price": 1.0
+    },
+    {
+      "name": "Gentle Magic Serum",
+      "price": 2.0
+    },
+    {
+      "name": "Gentle Magic Soap",
+      "price": 1.0
+    },
+    {
+      "name": "Ginger & Lemon Cookies",
+      "price": 1.5
+    },
+    {
+      "name": "Ginger Nuts",
+      "price": 0.5
+    },
+    {
+      "name": "Glade Powder Fresh",
+      "price": 2.0
+    },
+    {
+      "name": "Glade Sheer Vanilla",
+      "price": 2.0
+    },
+    {
+      "name": "Glade Strawberries & Cream",
+      "price": 2.0
+    },
+    {
+      "name": "Glamour Beauty",
+      "price": 5.0
+    },
+    {
+      "name": "Gloria Munchies 150g",
+      "price": 0.5
+    },
+    {
+      "name": "Gloria Munchies 1kg",
+      "price": 2.5
+    },
+    {
+      "name": "Gloria Self Raising 2kg",
+      "price": 1.9
+    },
+    {
+      "name": "Gold Star Sugar 2kg",
+      "price": 3.0
+    },
+    {
+      "name": "Gold Star Yeast 10g",
+      "price": 0.5
+    },
+    {
+      "name": "Golden Nectar",
+      "price": 1.0
+    },
+    {
+      "name": "Granadilla 1kg",
+      "price": 0.0
+    },
+    {
+      "name": "Grandpa",
+      "price": 0.25
+    },
+    {
+      "name": "Grapetiser",
+      "price": 1.0
+    },
+    {
+      "name": "Grapetiser 300ml",
+      "price": 1.5
+    },
+    {
+      "name": "Grays Throat Lozenges",
+      "price": 0.5
+    },
+    {
+      "name": "Greek Style 500g",
+      "price": 3.0
+    },
+    {
+      "name": "Grown ups 500g",
+      "price": 2.0
+    },
+    {
+      "name": "Gutsa",
+      "price": 5.5
+    },
+    {
+      "name": "H2go 500ml",
+      "price": 0.5
+    },
+    {
+      "name": "Halls Cherry",
+      "price": 0.5
+    },
+    {
+      "name": "Halls Fruit Explosion",
+      "price": 0.5
+    },
+    {
+      "name": "Handy Andy Eucalyptus",
+      "price": 2.0
+    },
+    {
+      "name": "Harpic",
+      "price": 2.0
+    },
+    {
+      "name": "Harpic citrus",
+      "price": 2.0
+    },
+    {
+      "name": "Harpic pot pourri",
+      "price": 2.0
+    },
+    {
+      "name": "Honey Syrup",
+      "price": 3.0
+    },
+    {
+      "name": "Hot Chocolate 250g",
+      "price": 4.5
+    },
+    {
+      "name": "Huletts Sugar 2kgs",
+      "price": 2.8
+    },
+    {
+      "name": "Hygienix Citrus",
+      "price": 1.0
+    },
+    {
+      "name": "Hygienix Even Tone",
+      "price": 1.0
+    },
+    {
+      "name": "IKT Foam",
+      "price": 5.0
+    },
+    {
+      "name": "Inecto Caramel Blond",
+      "price": 2.0
+    },
+    {
+      "name": "Inecto Passion Plum",
+      "price": 2.0
+    },
+    {
+      "name": "Inecto Super Black",
+      "price": 2.0
+    },
+    {
+      "name": "Ingrams Aloe Vera",
+      "price": 2.8
+    },
+    {
+      "name": "Ingrams Herbal",
+      "price": 2.5
+    },
+    {
+      "name": "Ingrams Moisture Coconut Oil",
+      "price": 2.8
+    },
+    {
+      "name": "Ingrams Moisture Plus",
+      "price": 2.8
+    },
+    {
+      "name": "Ingrams Moisture Plus Triple Glycerine",
+      "price": 3.0
+    },
+    {
+      "name": "Ingrams Moisture Wax Men",
+      "price": 2.8
+    },
+    {
+      "name": "Ingrams Original",
+      "price": 2.5
+    },
+    {
+      "name": "Ingrams Shea Butter",
+      "price": 2.8
+    },
+    {
+      "name": "Ingrams Tissue Oil",
+      "price": 2.8
+    },
+    {
+      "name": "Isoplus Hair Spray 240ml",
+      "price": 3.0
+    },
+    {
+      "name": "Jacobs",
+      "price": 3.5
+    },
+    {
+      "name": "Jacobs 200g",
+      "price": 8.0
+    },
+    {
+      "name": "Jade Honey",
+      "price": 0.8
+    },
+    {
+      "name": "Jade Lilac",
+      "price": 0.8
+    },
+    {
+      "name": "Jade Pink",
+      "price": 0.8
+    },
+    {
+      "name": "Jade White",
+      "price": 0.8
+    },
+    {
+      "name": "Jena Refined 5kgs",
+      "price": 3.5
+    },
+    {
+      "name": "Jena Roller Meal 10kgs",
+      "price": 7.0
+    },
+    {
+      "name": "Jik Regular",
+      "price": 1.0
+    },
+    {
+      "name": "Johnson Aqueous Cream",
+      "price": 3.4
+    },
+    {
+      "name": "Johnson Baby Jelly",
+      "price": 3.0
+    },
+    {
+      "name": "Johnson Baby Oil",
+      "price": 4.0
+    },
+    {
+      "name": "Johnson Baby Soap",
+      "price": 1.2
+    },
+    {
+      "name": "Johnson Baby Wipes",
+      "price": 2.0
+    },
+    {
+      "name": "Jungle Berries",
+      "price": 1.0
+    },
+    {
+      "name": "Jungle Dark Chocolate",
+      "price": 11.0
+    },
+    {
+      "name": "Jungle Oats 1kg",
+      "price": 3.5
+    },
+    {
+      "name": "Jupiter 150g",
+      "price": 1.0
+    },
+    {
+      "name": "Jupiter 75g",
+      "price": 0.5
+    },
+    {
+      "name": "Kambucha",
+      "price": 1.0
+    },
+    {
+      "name": "Karinga Beef Flavour",
+      "price": 0.5
+    },
+    {
+      "name": "Kefalos Banana 150g",
+      "price": 0.5
+    },
+    {
+      "name": "Kefalos Banana Smooth 1kg",
+      "price": 4.5
+    },
+    {
+      "name": "Kefalos Banana Smoothie Yogurt 500g",
+      "price": 2.8
+    },
+    {
+      "name": "Kefalos Berries 150g",
+      "price": 0.5
+    },
+    {
+      "name": "Kefalos Berries 1kg Smooth",
+      "price": 4.5
+    },
+    {
+      "name": "Kefalos Berries Yoghurt 500g",
+      "price": 2.8
+    },
+    {
+      "name": "Kefalos Chedder 200g",
+      "price": 4.5
+    },
+    {
+      "name": "Kefalos Double Cream Yoghurt 150g",
+      "price": 0.9
+    },
+    {
+      "name": "Kefalos Fruit Cocktail",
+      "price": 5.5
+    },
+    {
+      "name": "Kefalos Gouda 200g",
+      "price": 4.5
+    },
+    {
+      "name": "Kefalos Greek Style 1kg",
+      "price": 4.5
+    },
+    {
+      "name": "Kefalos Greek Style Yogurt 150g",
+      "price": 1.0
+    },
+    {
+      "name": "Kefalos Haloumi",
+      "price": 4.3
+    },
+    {
+      "name": "Kefalos Natural Yoghurt 150g",
+      "price": 0.9
+    },
+    {
+      "name": "Kefalos Natural Yogurt",
+      "price": 5.0
+    },
+    {
+      "name": "Kefalos Strawberry Smooth 1kg",
+      "price": 4.5
+    },
+    {
+      "name": "Kefalos Strawberry Smooth 500g",
+      "price": 3.0
+    },
+    {
+      "name": "Kefalos Vanilla 150g",
+      "price": 0.5
+    },
+    {
+      "name": "Kefalos Vhuka Vhuka",
+      "price": 1.0
+    },
+    {
+      "name": "Kelloggs Coco Pops",
+      "price": 4.0
+    },
+    {
+      "name": "Kellogs Beef",
+      "price": 0.35
+    },
+    {
+      "name": "Kellogs Cheese Flavour",
+      "price": 0.35
+    },
+    {
+      "name": "Kellogs Corn Flakes 750g",
+      "price": 4.5
+    },
+    {
+      "name": "Kellogs Hot Spicy",
+      "price": 0.35
+    },
+    {
+      "name": "Khamrah Soul Dancer",
+      "price": 4.0
+    },
+    {
+      "name": "King Kurls Creamy Onion",
+      "price": 0.5
+    },
+    {
+      "name": "King Peanut Butter 1kg",
+      "price": 3.0
+    },
+    {
+      "name": "Kiwi Black 50ml",
+      "price": 1.0
+    },
+    {
+      "name": "Knorr Beef",
+      "price": 0.5
+    },
+    {
+      "name": "Knorr Chicken Nodule",
+      "price": 0.5
+    },
+    {
+      "name": "Knorr Creamy Tomato",
+      "price": 0.5
+    },
+    {
+      "name": "Knorr Oxtail and Veg",
+      "price": 0.5
+    },
+    {
+      "name": "Knorr Rich Oxtail Soup",
+      "price": 0.5
+    },
+    {
+      "name": "Koo Baked Beans 400g",
+      "price": 1.0
+    },
+    {
+      "name": "Kotex Maxi Pro",
+      "price": 1.5
+    },
+    {
+      "name": "Kunaka 10kgs",
+      "price": 5.75
+    },
+    {
+      "name": "Kunaka 5kgs",
+      "price": 3.25
+    },
+    {
+      "name": "Lavender Dreams Oh So Heavenly",
+      "price": 5.5
+    },
+    {
+      "name": "Lays BBQ 105g",
+      "price": 1.5
+    },
+    {
+      "name": "Lays BBQ 23g",
+      "price": 0.5
+    },
+    {
+      "name": "Lays Salted 105g",
+      "price": 1.5
+    },
+    {
+      "name": "Lays Spring Onion 105g",
+      "price": 2.0
+    },
+    {
+      "name": "Lemon Creams",
+      "price": 0.5
+    },
+    {
+      "name": "Life Full Cream 250mls",
+      "price": 0.5
+    },
+    {
+      "name": "Lifebuoy Total 10",
+      "price": 1.0
+    },
+    {
+      "name": "Listerine Cool Mint 250ml",
+      "price": 3.8
+    },
+    {
+      "name": "Lo Bun",
+      "price": 0.5
+    },
+    {
+      "name": "Lobels Bermuda Creams",
+      "price": 0.5
+    },
+    {
+      "name": "Lucky Star 155g",
+      "price": 1.0
+    },
+    {
+      "name": "Lucky Star Pilchards 400g",
+      "price": 2.0
+    },
+    {
+      "name": "Lunch Bar 44g",
+      "price": 1.0
+    },
+    {
+      "name": "Lux Even Tone",
+      "price": 1.0
+    },
+    {
+      "name": "Lux Soft Touch",
+      "price": 1.0
+    },
+    {
+      "name": "Mahama Rice 2kgs",
+      "price": 2.6
+    },
+    {
+      "name": "Mambo Oriental Self Raising 2kgs",
+      "price": 1.8
+    },
+    {
+      "name": "Maq 1kg",
+      "price": 2.5
+    },
+    {
+      "name": "Maq 2kgs",
+      "price": 4.0
+    },
+    {
+      "name": "Mariana 2kgs",
+      "price": 2.2
+    },
+    {
+      "name": "Marie",
+      "price": 0.5
+    },
+    {
+      "name": "Mazowe Blackberry 2L",
+      "price": 3.5
+    },
+    {
+      "name": "Mazowe Cream Soda 2L",
+      "price": 3.4
+    },
+    {
+      "name": "Mazowe Peach",
+      "price": 3.4
+    },
+    {
+      "name": "Mazowe Raspberry",
+      "price": 3.4
+    },
+    {
+      "name": "Mega All Purpose",
+      "price": 2.0
+    },
+    {
+      "name": "Mega Cake Flour",
+      "price": 2.0
+    },
+    {
+      "name": "Mega Long Grain 5kg",
+      "price": 5.5
+    },
+    {
+      "name": "Mega Snacks Spicy Tomato",
+      "price": 0.5
+    },
+    {
+      "name": "Milkit",
+      "price": 0.5
+    },
+    {
+      "name": "Minute Maid Lemon Refresh",
+      "price": 0.5
+    },
+    {
+      "name": "Minute Maid Orange 400ml",
+      "price": 1.0
+    },
+    {
+      "name": "Miracle Mom Lemon 1L",
+      "price": 2.3
+    },
+    {
+      "name": "Mirinda Green Apple",
+      "price": 0.5
+    },
+    {
+      "name": "Mirinda Red Apple",
+      "price": 0.5
+    },
+    {
+      "name": "Mr Rice 5kg",
+      "price": 5.2
+    },
+    {
+      "name": "Natural Joy Apple Coconut",
+      "price": 1.0
+    },
+    {
+      "name": "Nivea Q10 Lotion Dry Skin",
+      "price": 8.0
+    },
+    {
+      "name": "Nivea Soft",
+      "price": 4.0
+    },
+    {
+      "name": "Nutty Muesli",
+      "price": 3.9
+    },
+    {
+      "name": "Nyama Roll",
+      "price": 0.5
+    },
+    {
+      "name": "Olivine 2ltrs",
+      "price": 3.5
+    },
+    {
+      "name": "Omo 2kgs",
+      "price": 5.0
+    },
+    {
+      "name": "Pepsi 750ml",
+      "price": 0.5
+    },
+    {
+      "name": "Pfuko Butter Milk",
+      "price": 0.5
+    },
+    {
+      "name": "Probrands Basmati 2kgs",
+      "price": 6.0
+    },
+    {
+      "name": "Protex Fresh",
+      "price": 1.0
+    },
+    {
+      "name": "Proton Bread White",
+      "price": 1.0
+    },
+    {
+      "name": "Pure Drop 2ltrs",
+      "price": 3.2
+    },
+    {
+      "name": "Quick Brew 50s",
+      "price": 1.0
+    },
+    {
+      "name": "Rajah Hot",
+      "price": 0.8
+    },
+    {
+      "name": "Red Bull Original 250ml",
+      "price": 1.25
+    },
+    {
+      "name": "Red Seal Rice 2kgs",
+      "price": 2.4
+    },
+    {
+      "name": "Revive Orange 1L",
+      "price": 1.0
+    },
+    {
+      "name": "Ricoffy 250g",
+      "price": 2.8
+    },
+    {
+      "name": "Romany Creams",
+      "price": 2.5
+    },
+    {
+      "name": "Samuel Maputi",
+      "price": 0.05
+    },
+    {
+      "name": "Satiskin Wild Rose",
+      "price": 4.0
+    },
+    {
+      "name": "Schweppes Lemon 2L",
+      "price": 2.0
+    },
+    {
+      "name": "Shumba Banana 500ml",
+      "price": 0.5
+    },
+    {
+      "name": "Simba Chutney 120g",
+      "price": 2.0
+    },
+    {
+      "name": "Smart 5kg",
+      "price": 3.0
+    },
+    {
+      "name": "Snowflake Self Raising 2.5kg",
+      "price": 4.2
+    },
+    {
+      "name": "Softcare Medium",
+      "price": 4.5
+    },
+    {
+      "name": "Soul Dancer Violet Petals Luxe",
+      "price": 4.0
+    },
+    {
+      "name": "Soya Chunks 250g",
+      "price": 0.5
+    },
+    {
+      "name": "Sprite Lemon Lime",
+      "price": 2.0
+    },
+    {
+      "name": "Sun Jam Big 900g",
+      "price": 3.5
+    },
+    {
+      "name": "Sunlight Liquid",
+      "price": 2.0
+    },
+    {
+      "name": "Super Sip Tropical 400ml",
+      "price": 0.5
+    },
+    {
+      "name": "Switch Dry Lemon",
+      "price": 1.0
+    },
+    {
+      "name": "Tanganda 100s",
+      "price": 3.5
+    },
+    {
+      "name": "Tomato Puree",
+      "price": 1.0
+    },
+    {
+      "name": "Top Jam 900g",
+      "price": 3.5
+    },
+    {
+      "name": "Ultra Mel Vanilla",
+      "price": 2.5
+    },
+    {
+      "name": "Value Max Popcorn 500g",
+      "price": 1.0
+    },
+    {
+      "name": "Vanilla Smooth Yoghurt 500g",
+      "price": 2.8
+    },
+    {
+      "name": "Vaporub Vicks",
+      "price": 0.5
+    },
+    {
+      "name": "Vaseline 250mls",
+      "price": 2.0
+    },
+    {
+      "name": "Victoria Red Grape",
+      "price": 2.0
+    },
+    {
+      "name": "Vimbai 2L",
+      "price": 2.0
+    },
+    {
+      "name": "Willards Cornflakes 500g",
+      "price": 2.0
+    },
+    {
+      "name": "Yum Yum Chocolate",
+      "price": 0.5
+    },
+    {
+      "name": "Zimgold 2ltrs",
+      "price": 3.3
+    },
+    {
+      "name": "Zimpure Still Water",
+      "price": 0.3
+    }
+  ]

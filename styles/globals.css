@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg: 245 245 255; }
+body { @apply bg-[rgb(var(--bg))] text-slate-900; }
+.input { @apply border rounded-xl px-3 py-2 bg-white; }
+.btn { @apply inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-brand-500 text-white hover:bg-brand-600 transition text-sm; }
+.card { @apply bg-white rounded-2xl shadow-glow p-3; }
+
+/* Force 3 columns on very small mobiles as requested */
+.grid-3-mobile {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+@media (min-width: 640px) {
+  .grid-3-mobile { gap: 0.75rem; }
+}
+@keyframes bounceOnce {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.25); }
+  60% { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
