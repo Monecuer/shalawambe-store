@@ -1,5 +1,15 @@
-/** @type {import('next').NextConfig} */
+import withPWAInit from 'next-pwa';
+
+const withPWA = withPWAInit({
+  dest: 'public',
+  register: true,
+  skipWaiting: true,
+});
+
 const nextConfig = {
-  images: { domains: ["firebasestorage.googleapis.com"] }
+  output: 'export', // ✅ now outside the PWA plugin
+  images: { unoptimized: true },
+  trailingSlash: true,
 };
-export default nextConfig;
+
+export default withPWA(nextConfig);

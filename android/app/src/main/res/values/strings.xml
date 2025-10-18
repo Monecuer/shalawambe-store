@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">shalawambe-store</string>
+    <string name="title_activity_main">shalawambe-store</string>
+    <string name="package_name">com.monecuer.shalawambe</string>
+    <string name="custom_url_scheme">com.monecuer.shalawambe</string>
+</resources>
