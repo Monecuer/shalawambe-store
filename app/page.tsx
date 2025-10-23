@@ -125,8 +125,8 @@ export default function Home() {
               className="w-24 h-24 opacity-70 mb-3"
             />
             <p className="text-gray-500 text-sm text-center">
-              No products found 😔<br />
-              Try searching something else.
+              No products found 🥲<br />
+              Try searching something else 🤓
             </p>
           </div>
         ) : (
