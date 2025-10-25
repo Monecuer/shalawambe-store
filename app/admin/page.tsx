@@ -1,8 +1,8 @@
-// app/admin/page.tsx
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
+import path from 'path-browserify';
 import {
   ShieldCheck, Lock, LogOut, Save, Upload, Download, RefreshCcw,
   Star, Image as ImageIcon, Key, CheckCircle, XCircle, Search, Pencil, Camera
@@ -56,20 +56,29 @@ export default function AdminPage() {
 
   // Product mutators
   function change(idx: number, patch: Partial<Product>) {
-    setList(prev => {
-      const next = prev.map((p,i) => i===idx ? { ...p, ...patch } : p);
-      // live reflect in UI; persist only when pressing Save (as requested)
-      return next;
-    });
+    setList(prev => prev.map((p, i) => i === idx ? { ...p, ...patch } : p));
   }
 
-  function handleSaveAll() {
+  async function handleSaveAll() {
     if (!pinOk) { alert('PIN required for saving.'); return; }
     setSaving(true);
-    setTimeout(() => {
-      saveProductsLocal(list);     // hard override products.json in the app
+
+    try {
+      // Local save
+      saveProductsLocal(list);
+      // Save to public/products.json on backend
+      await fetch('/api/save-products', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ products: list }),
+      });
+      alert('✅ Products updated successfully!');
+    } catch (err) {
+      console.error(err);
+      alert('❌ Failed to save products.');
+    } finally {
       setSaving(false);
-    }, 400);
+    }
   }
 
   function handleResetLocal() {
@@ -93,7 +102,7 @@ export default function AdminPage() {
           category: p.category || '',
           top10: Boolean(p.top10)
         }));
-        setList(next); // not saved until Save
+        setList(next);
       } catch {
         alert('Invalid JSON file.');
       }
@@ -102,19 +111,32 @@ export default function AdminPage() {
     ev.target.value = '';
   }
 
-  // Image upload -> DataURL (instant preview, offline)
-  function handleImageUpload(idx: number, e: React.ChangeEvent<HTMLInputElement>) {
+  // Image upload (uploads to backend /public/images and auto updates URL)
+  async function handleImageUpload(idx: number, e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
     if (!file) return;
-    const reader = new FileReader();
-    reader.onload = (ev) => {
-      const dataUrl = String(ev.target?.result || '');
-      // auto-name suggestion (not needed for DataURL but we keep consistency)
-      const imageName = (list[idx].name || '')
-        .toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '');
-      change(idx, { imageUrl: dataUrl }); // immediate UI update
-    };
-    reader.readAsDataURL(file);
+
+    const nameSlug = (list[idx].name || '')
+      .toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '') + path.extname(file.name);
+
+    const formData = new FormData();
+    formData.append('file', file);
+    formData.append('name', nameSlug);
+
+    try {
+      const res = await fetch('/api/upload', { method: 'POST', body: formData });
+      const data = await res.json();
+      if (data.ok) {
+        change(idx, { imageUrl: data.path });
+        alert('✅ Image uploaded successfully!');
+      } else {
+        alert('Upload failed: ' + (data.error || 'unknown'));
+      }
+    } catch (err) {
+      console.error(err);
+      alert('❌ Upload failed.');
+    }
+
     e.target.value = '';
   }
 
@@ -171,7 +193,7 @@ export default function AdminPage() {
     );
   }
 
-  // Editor
+  // Editor UI
   return (
     <div className="min-h-screen p-4 max-w-6xl mx-auto">
       <header className="flex items-center justify-between mb-4">
@@ -216,7 +238,6 @@ export default function AdminPage() {
             <div className="flex gap-3">
               <div className="w-20 h-20 rounded-lg overflow-hidden bg-slate-100 flex items-center justify-center border shrink-0">
                 {it.imageUrl ? (
-                  // eslint-disable-next-line @next/next/no-img-element
                   <img src={it.imageUrl} alt={it.name} className="w-full h-full object-cover" />
                 ) : (
                   <ImageIcon className="text-slate-400" />
@@ -224,7 +245,6 @@ export default function AdminPage() {
               </div>
 
               <div className="flex-1 space-y-2">
-                {/* Name */}
                 <div className="flex items-center gap-2">
                   <Pencil className="w-4 h-4 text-slate-500" />
                   <input
@@ -235,7 +255,6 @@ export default function AdminPage() {
                   />
                 </div>
 
-                {/* Price + Category */}
                 <div className="grid grid-cols-2 gap-2">
                   <div className="flex items-center gap-2">
                     <span className="text-sm text-slate-600">$</span>
@@ -255,7 +274,6 @@ export default function AdminPage() {
                   />
                 </div>
 
-                {/* Image controls */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   <input
                     className="input w-full"
@@ -270,14 +288,12 @@ export default function AdminPage() {
                   </label>
                 </div>
 
-                {/* Top 10 toggle + hint */}
                 <div className="flex items-center justify-between pt-1">
                   <button
                     className={`inline-flex items-center gap-1 px-3 py-1.5 rounded-lg text-sm ${
                       it.top10 ? 'bg-yellow-500 text-white' : 'bg-slate-200 text-slate-800'
                     }`}
                     onClick={() => change(idx, { top10: !it.top10 })}
-                    title="Toggle Top 10"
                   >
                     <Star className="w-4 h-4" />
                     {it.top10 ? 'Top' : 'Mark Top'}

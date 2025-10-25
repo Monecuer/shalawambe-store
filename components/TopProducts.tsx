@@ -1,49 +1,56 @@
-// components/TopProducts.tsx
 'use client';
 
-import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Star } from 'lucide-react';
-import { Product, loadMergedProducts } from './dataStore';
+import { ShoppingCart } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { useCart } from './CartContext';
 
 export default function TopProducts() {
-  const [items, setItems] = useState<Product[]>([]);
+  const { addToCart } = useCart();
+  const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    (async () => {
-      const all = await loadMergedProducts();
-      const top = all.filter(p => p.top10).slice(0, 10);
-      setItems(top);
-    })();
+    fetch('/products.json')
+      .then(res => res.json())
+      .then(data => {
+        const list = data.products || data;
+        const top = list.filter((p: any) => p.top10);
+        setProducts(top);
+      });
   }, []);
 
-  if (!items.length) return null;
+  if (products.length === 0)
+    return <p className="text-center text-gray-500">No Top Products yet.</p>;
 
   return (
-    <section className="max-w-6xl mx-auto p-4">
-      <div className="flex items-center gap-2 mb-3">
-        <Star className="text-yellow-500" />
-        <h2 className="font-bold text-lg">Top 10 Picks</h2>
-      </div>
+    <div className="max-w-6xl mx-auto px-4 py-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+      {products.map((p: any, i: number) => (
+        <motion.div
+          key={i}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.3 }}
+          className="relative rounded-xl bg-white shadow-md hover:shadow-lg overflow-hidden"
+        >
+          <img
+            src={p.imageUrl || `/images/${p.name.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}.jpg`}
+            alt={p.name}
+            className="w-full h-40 object-cover"
+          />
+          <div className="p-3">
+            <h3 className="font-semibold text-sm">{p.name}</h3>
+            <p className="text-blue-600 font-bold">${p.price}</p>
+          </div>
 
-      <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-6 gap-2 sm:gap-3">
-        {items.map((p, i) => (
-          <motion.div
-            key={p.name}
-            initial={{ y: 8, opacity: 0 }} animate={{ y: 0, opacity: 1 }}
-            transition={{ delay: i * 0.03 }}
-            whileHover={{ y: -3, scale: 1.02 }}
-            className="card p-2"
+          <button
+            onClick={() => addToCart(p)}
+            className="absolute top-2 right-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full p-2 shadow-md transition-transform transform hover:scale-110"
           >
-            <div className="aspect-square rounded-lg overflow-hidden bg-slate-100">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={p.imageUrl} alt={p.name} className="w-full h-full object-contain" />
-            </div>
-            <div className="mt-1 text-[11px] leading-tight line-clamp-2">{p.name}</div>
-            <div className="text-blue-600 font-semibold text-xs">${p.price.toFixed(2)}</div>
-          </motion.div>
-        ))}
-      </div>
-    </section>
+            <ShoppingCart size={18} />
+          </button>
+        </motion.div>
+      ))}
+    </div>
   );
 }
