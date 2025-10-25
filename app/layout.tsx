@@ -4,7 +4,7 @@ import FloatingCartButton from "../components/FloatingCartButton";
 
 export const metadata = {
   title: "Shalawambe Catalogues",
-  description: "Shop Smart. Shop Shalawambe."
+  description: " Smart. Shop Shalawambe."
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
